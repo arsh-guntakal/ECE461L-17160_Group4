@@ -14,16 +14,18 @@ import RadioButton from './RadioButton';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <div>
-      <MyComponent/>
-      <MyFunction/>
-      <StateExample/>
-      
-      {/* <RadioButton radioItems={["Option 1", "Option 2", "Option 3"]}/> */}
-      <WelcomeFunc/>
-      <Form/>
-      <Button2/>
-      <Lists/>
+    <div class="container">
+      <div>
+        <MyComponent/>
+        <MyFunction/>
+        <StateExample/>
+        
+        {/* <RadioButton radioItems={["Option 1", "Option 2", "Option 3"]}/> */}
+        <WelcomeFunc/>
+        <Form/>
+        <Button2/>
+        <Lists/>
+      </div>
     </div>
   </React.StrictMode>
 );
