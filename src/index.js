@@ -4,6 +4,7 @@ import './index.css';
 import MyComponent from './MyCompClass';
 import MyFunction from './MyCompFunc';
 import StateExample from './StateExample';
+import Button2 from './Button2';
 import WelcomeFunc from './WelcomeFunc';
 import reportWebVitals from './reportWebVitals';
 import Form from './Forms';
@@ -16,11 +17,12 @@ root.render(
     <div>
       <MyComponent/>
       <MyFunction/>
-      <StateExample initialCount={100}/>
-      <StateExample initialCount={200}/>
-      <RadioButton radioItems={["Option 1", "Option 2", "Option 3"]}/>
+      <StateExample/>
+      
+      {/* <RadioButton radioItems={["Option 1", "Option 2", "Option 3"]}/> */}
       <WelcomeFunc/>
       <Form/>
+      <Button2/>
       <Lists/>
     </div>
   </React.StrictMode>

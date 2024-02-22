@@ -9,17 +9,16 @@
 
 import React, { useState } from 'react';
 
-function StateExample(props) {
+function Button2(props) {
     // const [count, setCount] = useState(props.initialCount);
     return (
         <div>
             {/* <p>Hi, You clicked this button {count} times</p> */}
             
             <button >
-            New User? Sign Up Here</button>
-            
+            Sign In</button>
         </div>
   );
 }
 
-export default StateExample;
+export default Button2;

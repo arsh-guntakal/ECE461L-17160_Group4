@@ -19,10 +19,10 @@ function Welcome(props) {
     ) 
 }
 
-function WelcomeTest(props) {
+function WelcomeLogin(props) {
   return (
     <div>
-        <h1>Hi, Welcome to the software!</h1>;
+        {/* <h1>Login Portal</h1>; */}
     </div>
   ) 
 }
@@ -42,5 +42,5 @@ function WelcomeFunc() {
     );
   }
   
-  export default WelcomeTest;
+  export default WelcomeLogin;
   
