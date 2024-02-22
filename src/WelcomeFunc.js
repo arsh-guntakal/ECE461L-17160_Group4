@@ -19,6 +19,14 @@ function Welcome(props) {
     ) 
 }
 
+function WelcomeTest(props) {
+  return (
+    <div>
+        <h1>Hi, Welcome to the software!</h1>;
+    </div>
+  ) 
+}
+
 function PresentUserID(props) {
   return <h1>Hi, {props.userid} is your userid</h1>;
 
@@ -34,5 +42,5 @@ function WelcomeFunc() {
     );
   }
   
-  export default WelcomeFunc;
+  export default WelcomeTest;
   
