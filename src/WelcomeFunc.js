@@ -22,7 +22,7 @@ function Welcome(props) {
 function WelcomeLogin(props) {
   return (
     <div>
-        {/* <h1>Login Portal</h1>; */}
+        <h1>Login Portal</h1> 
     </div>
   ) 
 }
